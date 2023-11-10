@@ -2,7 +2,17 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-	width: 800px;
+	width: 600px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+
+	border:3px solid #931420;
+	background-color: #fffded;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100;
+
 }
 
 section {
@@ -19,8 +29,28 @@ aside {
 	padding-right:20px;
 }
 /* the styles for the header */
+
+
+
+header {
+	padding-top:1.5em;
+	padding-bottom:2em;
+	border-bottom:3px solid #931420;
+
+}
+
+
+
 header img {
+	padding-left:30px;
+	padding-right:30px;
 	float: left;
+	width:100px;
+	height:100px;
+
+	
+	background-image: linear-gradient(30deg,#f6bb73, #f6bb73 30%, white 50%, #f6bb73 80%,#f6bb73 100%);
+
 }
 
 header h2 {
@@ -46,27 +76,54 @@ a:hover {
 /* the styles for the main content */
 main {
 	clear: left;
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 main h1 {
-	font-size: 150%;
+	border-top:3px solid #931420;
+	border-bottom:3px solid #931420;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+
+	border-radius: 10px;
+	border-style: solid double;
+	box-shadow: 3px 3px black;
+	text-align: center;
 }
 main h2 {
-	color: var(--global-color-1);
-	font-size: 130%;
+	padding-top:0.5em;
+	padding-bottom:0.25em;
 }
+
 main h3 {
-	font-size: 105%;
+	padding-bottom:0.25em;
 }
+
+main img{
+	padding-bottom:lem;
+	width:200px;
+	padding-bottom: 0.5em;
+	
+}
+
+main li{
+	padding-bottom:0.35em;
+
+}
+	
 
 /* the styles for the footer */
 
 footer {
-	clear: both;
+	
+	background-color: #961420;
 }
 
 footer p {
+	color:white;
+	padding-top: lem;
+	padding-bottom: lem;
 	text-align: center;
+	margin:opx;
 }
